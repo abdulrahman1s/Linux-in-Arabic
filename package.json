@@ -1,0 +1,23 @@
+{
+  "name": "linux-in-arabic",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node bot.js",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "clean-stack": "^3.0.1",
+    "colors": "^1.4.0",
+    "discord.js": "github:discordjs/discord.js#67025e63e4e8306a2b3ff62ae1067acf4b468a6a",
+    "html-to-md": "^0.3.9",
+    "node-fetch": "^2.6.1",
+    "youtube-sr": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
